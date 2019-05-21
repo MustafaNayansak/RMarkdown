@@ -1,0 +1,182 @@
+---
+name: Mustafa Nayansak
+date: "`r format(Sys.time(), '%B, %Y')`"
+qualifications: Statistics, BSc
+position: Jr. Data Scientist
+phone: +90 532 666 97 86
+email: mustafanayansakk@gmail.com
+website : 'www.veribilimi.co/author/mustafanayasaka/'
+github: MustafaNayansak
+youtube : "www.youtube.com/channel/UC6sRvi8MsLRpeYY35EuDNuw/playlists?view=50&sort=dd&shelf_id=4"
+linkedin: mustafa-nayansak
+headcolor: EB471B
+urlcolor: blue
+output: vitae::awesomecv
+---
+
+# Summary
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(vitae)
+knitr::opts_chunk$set(echo = FALSE)
+```
+```{r}
+  tribble(
+  ~ details,
+ "I have integrated the statistical knowledge and skills that I have learned in undergraduate education with the subjects of “Data Science” and “Big Data”. I am experienced in statistical data analysis, statistical learning, data mining techniques. I use R programming language for data science processes, writing dynamic documents(RMarkdown), generating User Interface for visualization and analyzing(Shiny)."
+) %>% 
+  detailed_entries(details)
+```
+
+# Education
+
+```{r}
+tribble(
+  ~ degree, ~ uni, ~ loc, ~ dates, ~ details,
+  "MSc in Big Data and Businness Analytics", "Istanbul Technical University", "Istanbul Turkey", "Sep 2019 - 2020", "I'm going to do a master's degree in Big Data and Business Analytics. With this program I can have the necessary information about Data Science as a course content, I will be able to find solutions to many problems in the field of business."
+) %>% 
+  detailed_entries(degree, dates, uni, loc, details)
+```
+
+```{r}
+tribble(
+  ~ degree, ~ uni, ~ loc, ~ dates, ~ details,
+  "BSc in Statistics | GPA of 3.03/4.00", "Dokuz Eylul University", "Izmir Turkey", "Sep 2012-2018", "During my undergraduate education, I took many courses that I could improve myself in theoretical and applied statistics, I participated in assignments and project groups, I did a compulsory internship at a production factory, and I worked on a project in a one-year period with a group in the graduation project.",
+  "BSc in Statistics | GPA of 3.03/4.00", "Dokuz Eylul University", "Izmir Turkey", "Sep 2012-2018", "My “Graduating Project” subject was about developing R package and Shiny web application for “Comparing J Independent Group With a Method Based on Trimmed Means”. I presented this work at the 15th Statistics Colloquium organized by Yıldız Technical University."
+) %>% 
+  detailed_entries(degree, dates, uni, loc, details)
+```
+
+# Work Experience
+
+```{r}
+tribble(
+  ~ company, ~ role, ~ loc, ~ dates, ~ details,
+  "Veri Bilimi Okulu", "Nov 2018 - Present", "Blogger", "Istanbul Turkey",
+  "I am writing a series of articles on Categorical Data Analysis and Shiny Web Applications.",
+  "Veri Bilimi Okulu", "Nov 2018 - Present", "Blogger", "Istanbul Turkey", "I am shooting tutorial videos about Shiny Web Applications.",
+  "Veri Bilimi Okulu", "Nov 2018 - Present", "Blogger", "Istanbul Turkey", "I attended the Data Science training organized by Cukurova University and VBO as a speaker."
+  ) %>% 
+  detailed_entries(company, role, loc, dates, details)
+```
+
+```{r}
+tribble(
+  ~ company, ~ role, ~ loc, ~ dates, ~ details,
+  "KAEL Mühandislik Elektronik San.Tic.ltd.şti", "Jan 2017 - Feb 2017", "Internship", "Izmir Turkey",  "In this factory that produces processors, I made a study on the analysis of errors on the produced processors, the relations between errors, data visualization processes.
+This process is for me; the importance of reporting the proper use of statistical techniques at every stage of production, accurately and comprehensibly, that a lot of experience and success in business life can only come from quality."
+) %>% 
+  detailed_entries(company, role, loc, dates, details)
+```
+
+# Technical Skills
+
+```{r}
+tribble(
+  ~ role, 
+  "-  C#, C++",
+  "-  Minitab", 
+  "-  Python(Level : Beginner)",
+  "-  R(Algorithma Knowledge, Creating R Packages, RMarkdown, Shiny Web  Applications)",
+  "-  SPSS, SPSS Modeler", 
+  "-  SQL",
+  "-  Office(Word, Excel, Access...)",
+  "-  Wordpress",
+  "",
+  "",
+  "",
+  "",
+  ""
+) %>% 
+  brief_entries(role)
+```
+
+# Voluntary Work Experience
+
+```{r}
+tribble(
+  ~ role, ~ company, ~ loc, ~ dates, ~ details,
+  "MEDesTU", "EVS Volunteer", "Porto Portugal", "Dec 2018 - Jan 2019", "I am worked as a volunteer at the European Voluntary Service in Porto, Portugal. I wrote a KA-102 (Key Action) report in this project. KA-102 is an application form of erasmus+ projects. In addition, I participated in trainings and various cultural activities. I improved my language competences, travelled 4 countries, met many people from all over the World. It was an amazing experience for me."
+) %>% 
+  detailed_entries(role, dates, company, loc, details)
+```
+
+```{r}
+tribble(
+  ~ role, ~ company, ~ loc, ~ dates, ~ details,
+  "Bir Varmış Bir Yokmuş Project", "Volunteer", "Izmir Turkey", "June 2018", "It was Orienteering competition in İzmir Kültürpark. An Orienteering tournament has been held with groups consisting of a primary school, a high school and a university student. The main purpose of this organization was to make young people more sensitive about the environment and to show the importance of team work by bringing young people of different age groups together."
+) %>% 
+  detailed_entries(role, dates, company, loc, details)
+```
+
+```{r}
+tribble(
+  ~ role, ~ company, ~ loc, ~ dates, ~ details,
+  "Abla Abi Kardeş Project", "Volunteer", "Izmir Turkey", "Oct 2017 - May 2018", "In a region where middle and low income families are selected by İzmir Municipality, we met of primary school and secondary school students. In this project, which takes 28 weeks, me and my project friend, we go to the chosen their home on Saturdays, We were talking about a theme chosen by project management (e.g. World Disability Day), we encouraged them to be sensitive and good people. Our aim was to give them new perspectives and become role models to them."
+) %>% 
+  detailed_entries(role, dates, company, loc, details)
+```
+
+# Presentations
+```{r}
+tribble(
+  ~ role, ~ company, ~ loc, ~ dates, ~ details,
+  "Cukurova University", "Adana Turkey", "Speaker", "Apr 2019","In training, I talked about Data Science and Big Data applications in the world, Cloud Technologies and Version Control Systems. You can find more information about the training at 'https://www.youtube.com/watch?v=r4AsLD-efCI'."
+) %>% 
+  detailed_entries(role, company, loc, dates, details)
+```
+
+```{r}
+tribble(
+  ~ role, ~ company, ~ loc, ~ dates, ~ details,
+  "Yildiz Technical University", "Istanbul Turkey", "Speaker", "May 2018", "My “Graduating Project” subject was about developing R package and Shiny web application for “Comparing J Independent Group With a Method Based on Trimmed Means”. I presented this work at the 15th Statistics Colloquium organized by Yıldız Technical University. You can find more information about the presentation at 'https://youtu.be/IPeFRcHh8Bc'"
+) %>% 
+  detailed_entries(role, company, loc, dates, details)
+```
+
+# Language 
+```{r}
+tribble(
+  ~ language, ~ company, ~ details, ~ date, ~ more,
+  "IELTS Academic Test ","British Council","English", "Nov 2018", "Overall : 5.5  -  Level : B2"
+) %>% 
+  detailed_entries(language, company, details, date, more)
+```
+
+# Personal Skills
+```{r}
+tribble(
+  ~ details,
+  "- Have enough knowledge on probability and statistics",
+  "- Experienced in achieving the right information and integrating it into the subject studied",
+  "- Actively use statistical tools for problem analysis",
+  "- Recognizing and separating the problem.",
+  "- Presentation"
+) %>% 
+  brief_entries(details)
+```
+
+# Athletic Activities
+```{r}
+tribble(
+  ~ role, ~ company, ~ details, ~ date, ~ more, 
+  "Member, Board of Directors ","DEU Cave Research Club(DEUMAK)", "Caver", "Nov 2012 - Mar 2014", "I played an active role in organizing more than 40 camp organizations. I had training in cave research, rescue and first aid, mapping and single rope techniques (SRT). ",
+  "Member, Board of Directors ","DEU Cave Research Club(DEUMAK)", "Caver", "Nov 2012 - Mar 2014", "I took part in decision-making mechanisms such as maintenance of the rope and climbing equipment, transportation, making assigns in the cave and outside the cave, organizing the necessary documents for the organization."
+    
+) %>% 
+  detailed_entries(role, company, details, date, more)
+```
+
+# References
+```{r}
+tribble(
+  ~ details,
+  "(1) Prof.Dr. Aylin Alın          >> aylin.alin@deu.edu.tr",
+  "(2) Yrd.Doç.Dr. Engin Yıldıztepe >> engin.yildiztepe@deu.edu.tr",
+  "(3) Doc.Dr. Neslihan Demirel     >> neslihan.ortabas@deu.edu.tr"
+  
+) %>% 
+brief_entries(details)
+```
+
